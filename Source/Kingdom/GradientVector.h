@@ -4,12 +4,11 @@
 
 #include "CoreMinimal.h"
 
-/**
- * 
- */
-class KINGDOM_API MyClass
+class KINGDOM_API GradientVector
 {
 public:
-	MyClass();
-	~MyClass();
+	GradientVector();
+	~GradientVector();
+
+	FVector2D Calculate(int ix, int iy);
 };
